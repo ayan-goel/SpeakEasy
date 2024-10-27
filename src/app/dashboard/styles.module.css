@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #000000; /* Solid black background */
+}
+
+.container {
+  background-color: #333333; /* Dark gray background for the box */
+  padding: 3rem 4rem;
+  border-radius: 16px; /* Rounded corners */
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3); /* Subtle shadow for depth */
+  text-align: center;
+  max-width: 600px;
+  width: 100%;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: #ffffff;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; /* Space between buttons */
+}
+
+.largeButton {
+  padding: 1.5rem 0;
+  background-color: #007bff; /* Blue button */
+  color: #ffffff; /* White text */
+  font-size: 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.largeButton:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}

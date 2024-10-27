@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.container {
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+  padding: 4rem 6rem; /* Larger padding to make container take up more space */
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(255, 255, 255, 0.2);
+  animation: fadeIn 1s ease;
+  max-width: 600px; /* Wider container */
+  margin: 5rem auto; /* Center and add top margin */
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem; /* Large title */
+  font-weight: bold;
+  margin-bottom: 2rem; /* Increased margin for space */
+  animation: fadeIn 1.5s ease;
+  color: #ffffff;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin-bottom: 3rem; /* Extra space after description */
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem; /* Increased spacing between fields */
+  margin-bottom: 2.5rem;
+}
+
+.input {
+  padding: 1.3rem;
+  font-size: 1.2rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0; /* Light background for input fields */
+  color: #333; /* Dark text for readability */
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1); /* Soft inner shadow */
+  width: 100%; /* Full width of the container */
+}
+
+.buttonContainer {
+  margin-top: 7rem; /* Increased margin for spacing */
+}
+
+.button {
+  padding: 1.2rem 2.5rem; /* Larger button padding */
+  background-color: #ffffff;
+  color: #000;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

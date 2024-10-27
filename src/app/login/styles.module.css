@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #282c34; /* Optional: Add background color for contrast */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 4rem 5rem;
+  border-radius: 16px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+  animation: fadeIn 1s ease;
+  max-width: 500px;
+  text-align: center;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: #ffffff;
+  animation: fadeIn 1.5s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 2.5rem;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10rem; /* Increased spacing between input fields */
+  margin-bottom: 5rem;
+}
+
+.input {
+  padding: 1.3rem;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background-color: #f0f0f0;
+  color: #333;
+  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+
+.button {
+  padding: 1.2rem 2.5rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ffffff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button:hover {
+  background-color: #0056b3;
+  transform: scale(1.07);
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
